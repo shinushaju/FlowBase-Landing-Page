@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 64px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #19191b;
+}
+
+h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #19191b;
+  text-align: center;
+  padding: 24px 0 0 0;
+}
+
+h6 {
+  font-family: "Mulish", sans-serif;
+  color: #696871;
+  text-align: center;
+  padding: 15px 0;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  color: #696871;
+  font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 48px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+}
+
+.btn-primary {
+  background-color: #5454d4;
+  border: none;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px 56px;
+}
+
+.btn-primary:hover {
+  background-color: #5454d4;
+  border: none;
+}
+
+.btn-primary:focus {
+  background-color: #5454d4;
+  border: none;
+  outline: none;
+}
+
+
+.learn-link {
+  color: #5454d4;
+  font-family: "DM Sans", sans-serif;
+}
+
+.nav-padding {
+  padding: 36px 36px;
+  margin: 0 100px;
+}
+
+@media (max-width: 767.98px) {
+  .nav-padding {
+    padding: 18px 12px;
+    margin: 0 10px;
+  }
+}
+
+.nav-link {
+  font-family: "DM Sans", sans-serif;
+  color: #696871;
+  font-size: 17px;
+}
+
+.nav-pills .navitem .nav-link  {
+    background-color: #f7f7fb;
+    color: #1d293f;
+    padding: 12px 36px;
+}
+
+
+li.active {
+  font-weight: bold;
+  color: #19191b;
+}
+
+.custom-nav-pill-01 {
+  padding: 0 18px;
+  border-radius: 8px;
+  background-color: #ff7143;
+}
+
+.nav-pills-text {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+
+.hero-img {
+  height: 30rem;
+}
+
+.hero-img2 {
+  height: 24rem;
+}
+
+
+@media (max-width: 767.98px) {
+
+  .hero-img {
+    height: 20rem;
+  }
+  .hero-img2 {
+    height: 20rem;
+  }
+  
+}
+
+.arrow {
+  height: 48px;
+  width: 48px;
+  margin-left: 23px;
+  padding: 10px;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+}
+.arrow-down {
+  height: 16px;
+  width: 16px;
+}
+
+.swiper-container {
+  height: 100px;
+}
+
+/* Pricing Table */
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  background: #f8f8f8;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  font-family: "DM Sans", sans-serif;
+  color: #696871;
+}
+
+.pricing .card-price {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #1d293f;
+}
+
+.pricing .card-price .period {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.pricing h6 {
+  color: #696871;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  background: #ffffff;
+  color: #5454d4;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+.pricing .card:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  background: #ff7143;
+  color: #ffffff;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.pricing .card:hover .btn {
+  opacity: 1;
+  background: #9f3919;
+  color: #ffffff;
+}
+
+.pricing .card:hover .card-title {
+  color: #ffffff;
+}
+
+.pricing .card:hover .card-price {
+  color: #ffffff;
+}
+
+.pricing .card:hover .card-price .period {
+  color: #ffffff;
+}
+
+.pricing .card:hover h6 {
+  color: #ffffff;
+}
