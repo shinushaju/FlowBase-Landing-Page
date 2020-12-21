@@ -20,10 +20,11 @@
     <a class="navbar-brand" href="#"><img src="assets/images/Logo Color.svg" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <span><img class="toggler-icon" src="assets/images/menu.png" alt="menu"></span>
+    </button> 
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="nav justify-content-center mx-auto">
+      <ul class="nav justify-content-center mx-auto contents1">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -80,29 +81,29 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-              <img src="assets/images/company 01.svg" alt="company 1">
+              <img class="company-logo" src="assets/images/company 01.svg" alt="company 1">
             </div>
             <div class="swiper-slide">
-              <img src="assets/images/company 02.svg" alt="company 2">
+              <img class="company-logo" src="assets/images/company 02.svg" alt="company 2">
             </div>
             <div class="swiper-slide">
-              <img src="assets/images/company 03.svg" alt="company 3">
+              <img class="company-logo" src="assets/images/company 03.svg" alt="company 3">
             </div>
             <div class="swiper-slide">
-              <img src="assets/images/company 04.svg" alt="company 4">
+              <img class="company-logo" src="assets/images/company 04.svg" alt="company 4">
             </div>
             <div class="swiper-slide">
-              <img src="assets/images/company 05.svg" alt="company 5">
+              <img class="company-logo" src="assets/images/company 05.svg" alt="company 5">
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row pt-5 pb-5">
-      <div class="col-sm-6  d-flex justify-content-center">
+    <div class="row pt-3 pb-3">
+      <div class="col-sm-6 d-flex justify-content-center">
         <div>
-          <img class="hero-img2" src="assets/images/Content Image 02.png" alt="Content Image">
+          <img class="hero-img2 pb-5" src="assets/images/Content Image 02.png" alt="Content Image">
         </div>
       </div>
       <div class="col-sm-6 d-flex align-items-center">
@@ -116,36 +117,36 @@
     </div>
 
     <div class="row pt-5 pb-5">
-      <div class="col-sm-12 d-flex align-items-center order-sm-2">
+      <div class="col-sm-6 d-flex align-items-center">
         <div>
           <h2>In-depth metrics</h2>
           <p>Accurate, real-time reporting at your fingertips.<br>Getting data has never been easier.</p>
           <a class="learn-link" href="#">Learn more</a>
         </div>
       </div>
-      <div class="col-sm-12 d-flex justify-content-center order-sm-1">
+      <div class="col-sm-6 d-flex justify-content-center">
         <div>
-          <img class="hero-img2" src="assets/images/Content Image.svg" alt="Content Image">
+          <img class="hero-img2 pt-5" src="assets/images/Content Image.svg" alt="Content Image">
         </div>
       </div>
     </div>
 
     <div class="row pt-5 pb-5">
-      <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col-lg-4 pb-5 col-md-4 col-sm-12">
         <div class="d-flex justify-content-center">
           <img src="assets/images/Icon 001.svg" alt="Benchmarks Icon">
         </div>
         <h3>Benchmarks</h3>
         <h6>See how you stack up against comparable companies in similar stages.</h6>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col-lg-4  pb-5 col-md-4 col-sm-12">
         <div class=" d-flex justify-content-center">
           <img src="assets/images/Icon 002.svg" alt="Pricing Audit Icon">
         </div>
         <h3>Pricing Audit</h3>
         <h6>Benchmark the health of your monetization and pricing strategy.</h6>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="col-lg-4 pb-5 col-md-4 col-sm-12">
         <div class="d-flex justify-content-center">
           <img src="assets/images/Icon 003.svg" alt="Retention Audit Icon">
         </div>
@@ -163,10 +164,12 @@
           <div pt-5>
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link tab-nav-link active" id="pills-yearly-tab" data-toggle="pill" href="#pills-yearly" role="tab" aria-controls="pills-yearly" aria-selected="true">Yearly</a>
+                <a class="nav-link tab-nav-link active" id="pills-yearly-tab" data-toggle="pill" href="#pills-yearly"
+                  role="tab" aria-controls="pills-yearly" aria-selected="true">Yearly</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link tab-nav-link" id="pills-monthly-tab" data-toggle="pill" href="#pills-monthly" role="tab" aria-controls="pills-monthly" aria-selected="false">Monthly</a>
+                <a class="nav-link tab-nav-link" id="pills-monthly-tab" data-toggle="pill" href="#pills-monthly"
+                  role="tab" aria-controls="pills-monthly" aria-selected="false">Monthly</a>
               </li>
             </ul>
           </div>
@@ -175,7 +178,8 @@
     </div>
 
     <div class="tab-content" id="pills-tabContent">
-      <div class="container pricing tab-pane fade show active" id="pills-yearly" role="tabpanel" aria-labelledby="pills-yearly-tab">
+      <div class="pricing tab-pane fade show active" id="pills-yearly" role="tabpanel"
+        aria-labelledby="pills-yearly-tab">
         <div class="row p-4">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
@@ -221,9 +225,10 @@
               </div>
             </div>
           </div>
-        </div>     
+        </div>
       </div>
-      <div class="container pricing tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
+      <div class="container pricing tab-pane fade" id="pills-monthly" role="tabpanel"
+        aria-labelledby="pills-monthly-tab">
         <div class="row p-4">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
@@ -288,20 +293,12 @@
     });
   </script>
 
-<script>
-  $('#prizetable .nav a').on('click', function () {
-    $('#navbarNav .nav').find('li.active1').removeClass('active1');
-    $(this).parent('li').addClass('active1');
-  });
-</script>
-
-
   <script>
     var mySwiper = new Swiper('.swiper-container', {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 20,
       autoplay: {
         delay: 5000,
@@ -309,8 +306,8 @@
       // breakpoints 
       breakpoints: {
         640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 3,
+          spaceBetween: 50,
         },
         768: {
           slidesPerView: 4,
